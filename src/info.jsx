@@ -37,14 +37,14 @@ export default function info(){
             <h2 className="name flex justify-center text-3xl font-bold">Onkar Gupta</h2>
             <h3 className="text-base font-normal text-orange-400">Student</h3>
             <h4 className="text-sm font-thin cursor-pointer" onClick={weblink}>website link</h4>
-            <div className="btns flex justify-center gap-2.5 m-3">
-                <button className="email p-2 h-8 w-32 bg-white rounded-lg flex items-center justify-center space-x-1 shadow" onClick={mailclick}>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <h4>Email</h4>
+            <div className="btngap-2.5 m-s flex justify-center 3">
+                <button className="email p-2 h-10 w-32 bg-white rounded-lg flex items-center justify-center space-x-2 shadow" onClick={mailclick}>
+                <i class="fa fa-envelope text-zinc-950 " aria-hidden="true"></i>
+                <h4 className="text-zinc-950 font-bold">Email</h4>
                 </button>
-                <button className=" w-32 h-8 linkedin bg-green-500 rounded-lg flex justify-center items-center space-x-2 p-2 shadow" onClick={linkedinclick} style={{backgroundColor: '#5093E2',}}>
+                <button className=" w-32 h-10 linkedin rounded-lg flex justify-center items-center space-x-2 p-2 shadow" onClick={linkedinclick} style={{backgroundColor: '#5093E2',}}>
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                <h4>LinkedIn</h4>
+                <h4 className="font-bold">LinkedIn</h4>
                 </button>
             </div>
         </div>

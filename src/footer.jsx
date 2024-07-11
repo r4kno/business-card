@@ -14,7 +14,7 @@ export default function Footer(){
     }
     return(
         <div className="flex justify-around bg-zinc-900
-        h-20 items-center rounded-b-lg">
+        h-20 items-center rounded-b-lg items-self-end">
             <i class="cursor-pointer fa fa-linkedin-square fa-2x" onClick={linkedin} aria-hidden="true"></i>
             <i class="cursor-pointer fa fa-twitter-square fa-2x" onClick={twitter} aria-hidden="true"></i>
             <i class="cursor-pointer fa fa-instagram fa-2x" onClick={instagram} aria-hidden="true"></i>

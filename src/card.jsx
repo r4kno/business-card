@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 export default function card(){
     return(
-        <div className="card flex-col w-80 h-vh rounded-lg m-2">
+        <div className="card flex-col w-80 rounded-lg m-2">
         <Info />
         <About />
         <Interests />

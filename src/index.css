@@ -5,7 +5,7 @@
 }
 html, body{
   width: 100vw;
-  height: 100vh; 
+  height: 100%; 
   background-color: rgb(55 65 81);
   color: white;
   display: flex;
@@ -23,5 +23,6 @@ html, body{
 }
 .card{
   background: #1A1B21;
-  height: 90vh;
+  height: auto;
+  margin-top: 5%;
 }
